@@ -15,7 +15,7 @@
 #echo "proxy=$proxy" >> /etc/yum.conf 
 
 # install other funny stuff
-yum install -y nano git
+yum install -y nano git psmisc
 
 # install docker
 yum install -y yum-utils
