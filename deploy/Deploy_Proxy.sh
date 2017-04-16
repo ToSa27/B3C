@@ -22,12 +22,10 @@ yum install -y yum-utils
 yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 yum makecache fast
 yum install -y docker-ce
+sed -i '/^ExecStart=/ s/$/ --insecure-registry docker.die-hoffs.net:5000/' /usr/lib/systemd/system/docker.service
 systemctl enable docker
 systemctl start docker
 usermod -G docker centos
-sed -i '/^ExecStart=/ s/$/ --insecure-registry docker.die-hoffs.net:5000/' /usr/lib/systemd/system/docker.service
-systemctl daemon-reload
-service docker restart
 
 # install nodejs
 #curl -sL https://rpm.nodesource.com/setup_7.x | bash -
