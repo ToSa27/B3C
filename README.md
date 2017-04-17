@@ -7,9 +7,9 @@
 `---`
 
 # Putty executable
-32bit `https://raw.githubusercontent.com/ToSa27/B3C/master/putty32/putty.exe`
-64bit `https://raw.githubusercontent.com/ToSa27/B3C/master/putty64/putty.exe`
+- 32bit `https://raw.githubusercontent.com/ToSa27/B3C/master/putty32/putty.exe`
+- 64bit `https://raw.githubusercontent.com/ToSa27/B3C/master/putty64/putty.exe`
 
 # Deployment script
-Proxy `https://raw.githubusercontent.com/ToSa27/B3C/master/deploy/Deploy_Proxy.sh`
-NoProxy `https://raw.githubusercontent.com/ToSa27/B3C/master/deploy/Deploy_NoProxy.sh`
+- Proxy `https://raw.githubusercontent.com/ToSa27/B3C/master/deploy/Deploy_Proxy.sh`
+- NoProxy `https://raw.githubusercontent.com/ToSa27/B3C/master/deploy/Deploy_NoProxy.sh`
