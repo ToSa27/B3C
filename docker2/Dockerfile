@@ -1,4 +1,5 @@
-FROM node
-ADD ./hello.js /hello.js
+FROM node:alpine
 ENTRYPOINT ["node", "/hello.js"]
 EXPOSE 3000
+ADD ./hello.js /hello.js
+
