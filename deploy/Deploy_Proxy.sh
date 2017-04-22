@@ -14,7 +14,7 @@ chmod 755 /etc/profile.d/proxy.sh
 . /etc/profile.d/proxy.sh
 echo "proxy=$proxy" >> /etc/yum.conf 
 
-# install other funny stuff
+# install basic stuff
 yum install -y nano git psmisc
 
 # install docker
@@ -27,10 +27,5 @@ systemctl enable docker
 systemctl start docker
 usermod -G docker centos
 
-# install nodejs
-#curl -sL https://rpm.nodesource.com/setup_7.x | bash -
-#yum install -y nodejs
-
 # pull content via git
-git clone https://github.com/ToSa27/B3C.git /home/centos/files
-
+git clone https://github.com/ToSa27/B3C.git /home/centos/B3C
