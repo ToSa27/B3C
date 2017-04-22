@@ -7,9 +7,7 @@
 `-- shared separately --`
 
 # Putty executable
-- [32bit](https://the.earth.li/~sgtatham/putty/latest/w32/putty.exe)
-- [64bit](https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe)
+[link](https://the.earth.li/~sgtatham/putty/latest/w32/putty.exe)
 
 # Deployment script
-- [Proxy](https://raw.githubusercontent.com/ToSa27/B3C/master/deploy/Deploy_Proxy.sh)
-- [NonProxy](https://raw.githubusercontent.com/ToSa27/B3C/master/deploy/Deploy_NoProxy.sh)
+[link](https://raw.githubusercontent.com/ToSa27/B3C/master/deploy/deploy.sh)

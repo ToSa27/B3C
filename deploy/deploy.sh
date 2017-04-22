@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # proxy setup
-if ping -c 1 143.26.144.197 &> /dev/null
+if ping -c 1 137.185.234.1 &> /dev/null
 then
   echo "proxy=http://104.129.198.34:9400" > /etc/profile.d/proxy.sh
   echo "export http_proxy=\$proxy" >> /etc/profile.d/proxy.sh
