@@ -25,7 +25,7 @@ yum install -y yum-utils
 yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 yum makecache fast
 yum install -y docker-ce
-sed -i '/^ExecStart=/ s/$/ --insecure-registry 0.0.0.0\/8/' /usr/lib/systemd/system/docker.service
+sed -i '/^ExecStart=/ s/$/ --insecure-registry 0.0.0.0\/0/' /usr/lib/systemd/system/docker.service
 systemctl enable docker
 systemctl start docker
 usermod -G docker centos
